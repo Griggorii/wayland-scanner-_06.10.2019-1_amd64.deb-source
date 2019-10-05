@@ -8,3 +8,5 @@ wayland-scanner++_06.10.2019-1_amd64.deb + source
 inpack source code wayland-scanner++.tar.xz
 
 && make && sudo checkinstall
+
+&& sudo apt autoremove
